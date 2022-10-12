@@ -15,6 +15,7 @@ def index():
 def signin():
     account = request.form["account"]
     password = request.form["password"]
+    session["username"] = account
     if account == "test" and password == "test":
         return redirect("/member")  # 要的是網址，就要傳網址重新導向，不是傳檔案
     else:
