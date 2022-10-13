@@ -47,4 +47,11 @@ main form button {
 main h3.memberWelcome {
   margin: 30px;
   font-size: 1.5rem;
+}
+
+hr {
+  clear: both;
+  display: block;
+  width: 96%;
+  height: 1px;
 }/*# sourceMappingURL=style.css.map */

@@ -11,11 +11,19 @@
 <header><h1>歡迎光臨，請輸入帳號密碼</h1></header>
 <main>
     <form action="/signin" method="POST">
-    <h3 class="tittle">登入系統</h3>
-    <div class="input"><h3>帳號 </h3><input type="text" name="account"></div>
-    <div class="input"><h3>密碼 </h3><input type="password" name="password"></div>
-    <button>登入</button>
-</form>
+        <h3 class="tittle">登入系統</h3>
+        <div class="input"><h3>帳號 </h3><input type="text" name="user"></div>
+        <div class="input"><h3>密碼 </h3><input type="password" name="password"></div>
+        <button>登入</button>
+    </form>
+    <br>
+    <br>
+    <hr>
+    <form action="/input" method="POST">
+        <h3 class="tittle">計算正整數的平方</h3>
+        <div class="input"><h3>正整數 </h3><input type="number" name="number"></div>
+        <button>計算</button>
+    </form>
 </main>
 
 </body>
