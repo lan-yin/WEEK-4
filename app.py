@@ -47,7 +47,7 @@ def input():
 @app.route("/square/<number>")
 def square(number):
     result = str(int(number) ** 2)
-    return render_template("square.html", result = result, number = number)
+    return render_template("square.html", result = result)
 
 
 
